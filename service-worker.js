@@ -1,5 +1,5 @@
-/* CursoPrompt IA 1.1: cache atualizado e resposta de rede prioritária */
-const CACHE='curso-prompt-v1-1-2026';
+/* CursoPrompt IA 1.2: cache atualizado e resposta de rede prioritária */
+const CACHE='curso-prompt-v1-2-2026';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()));

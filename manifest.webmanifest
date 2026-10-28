@@ -1,7 +1,7 @@
 {
   "name": "CursoPrompt IA — Criador de cursos",
   "short_name": "CursoPrompt IA",
-  "description": "Crie instruções em português para cursos em PDF, imagens didáticas, exercícios, anúncios e páginas de vendas.",
+  "description": "Gere prompts em português para cursos em PDF, atividades e imagens didáticas criadas com IA.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
